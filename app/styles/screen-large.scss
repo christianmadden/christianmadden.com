@@ -1,0 +1,9 @@
+
+@media (min-width: $screen-width-large-min)
+{
+  #container
+  {
+    @include width(12);
+    border: 1px solid #000;
+  }
+}

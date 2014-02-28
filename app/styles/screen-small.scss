@@ -1,0 +1,9 @@
+
+@media (max-width: $screen-width-medium-min)
+{
+  #container
+  {
+    @include width(6);
+    border: 1px solid #000;
+  }
+}
