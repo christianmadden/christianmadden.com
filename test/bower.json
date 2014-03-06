@@ -1,5 +1,5 @@
 {
-  "name": "cm-2014",
+  "name": "cm-2014-backbone",
   "private": true,
   "dependencies": {
     "chai": "~1.8.0",

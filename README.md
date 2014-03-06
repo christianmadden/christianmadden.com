@@ -1,5 +1,5 @@
 
-Hi, I’m Christian Madden.
+Hi. I’m Christian Madden.
 ============================
 I make stuff on the internet. Mostly at [Mullen](http://mullen.com/).
 
