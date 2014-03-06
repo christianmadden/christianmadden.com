@@ -5,11 +5,10 @@
   "author": "Christian Madden",
   "copyright": "2014",
   "version": "0.0.1",
-  "repository":
-  {
+  "repository": {
     "type": "git",
     "url": "git@github.com:christianmadden/christianmadden.com-2014-web.git"
-  }
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
