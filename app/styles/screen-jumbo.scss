@@ -1,9 +1,0 @@
-
-@media (min-width: $screen-width-jumbo-min)
-{
-  #container
-  {
-    @include width(16);
-    border: 1px solid #000;
-  }
-}
