@@ -1,3 +1,4 @@
+'use strict';
 
 module.exports = function(grunt)
 {
@@ -43,7 +44,7 @@ module.exports = function(grunt)
       dev:
       {
         options: {},
-        src: ["src/**/*.html"]
+        src: ['src/**/*.html']
       }
     },
 
@@ -54,7 +55,7 @@ module.exports = function(grunt)
       {
         options:
         {
-          style: "expanded",
+          style: 'expanded',
           compass: true
         },
         files:

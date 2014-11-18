@@ -1,8 +1,9 @@
+'use strict';
 
 $(function()
 {
-  console.log("Loading: main");
+  console.log('Loading: main');
 
-  $("a[rel=external]").attr("target", "_blank");
-  
+  $('a[rel=external]').attr('target', '_blank');
+
 });

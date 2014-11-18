@@ -1,3 +1,4 @@
+'use strict';
 
 // TODO
 // REALLY SMART CACHING!
@@ -14,18 +15,7 @@
 // What text to display?
 // Change ocen color over time
 
-$(function()
-{
-  if($("body").attr("id") === "home")
-  {
-    console.log("Loading: home");
-    chronometer.init();
-    chronometer.conditions.init();
-
-    draw();
-  }
-
-});
+var chronometer = chronometer || {};
 
 function draw()
 {
@@ -33,3 +23,16 @@ function draw()
     chronometer.update();
     //chronometer.conditions.update();
 }
+
+$(function()
+{
+  if($('body').attr('id') === 'home')
+  {
+    console.log('Loading: home');
+    chronometer.init();
+    chronometer.conditions.init();
+
+    draw();
+  }
+
+});
