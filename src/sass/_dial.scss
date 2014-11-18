@@ -1,0 +1,82 @@
+
+#chronometer
+{
+  #minute-dial, #hour-dial
+  {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: $outer-width;
+    height: $outer-width;
+    @include border-radius($outer-width / 2);
+    @include transform-origin(50%, 50%);
+  }
+
+  #minute-dial
+  {
+    z-index: 60;
+
+    #minute-marker
+    {
+      position: absolute;
+      top: 10px;
+      left: 105px;
+      width: 5px;
+      height: 100px;
+      background-color: #000;
+    }
+  }
+
+  #hour-dial
+  {
+    z-index: 70;
+
+    #hour-marker
+    {
+      position: absolute;
+      top: 70px;
+      left: 105px;
+      width: 5px;
+      height: 40px;
+      background-color: #000;
+    }
+  }
+
+  #astro-dial
+  {
+    z-index: 30;
+    position: absolute;
+    top: 0;
+    width: $face-width;
+    height: $face-width;
+    @include border-radius($face-width / 2);
+    @include transform-origin(50%, 50%);
+
+    #sun, #moon
+    {
+      z-index: 31;
+      position: absolute;
+      left: 85px;
+      width: 20px;
+      height: 20px;
+      @include border-radius(20px);
+    }
+
+    #sun
+    {
+      bottom: $bezel-thickness;
+      background-color: #ff0;
+    }
+
+    #moon
+    {
+      top: $bezel-thickness;
+      color: #fff;
+      font-family: "Moon Phases";
+      font-size: 23px;
+      line-height: 1.0;
+
+      p { margin: -3px 0 0 -2px; }
+    }
+  }
+}

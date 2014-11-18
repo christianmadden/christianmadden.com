@@ -1,0 +1,42 @@
+
+#sky-background, #sky-blend, #sky, #sky-foreground, #sky-fx
+{
+  position: absolute;
+  top: 0;
+  width: $face-width;
+  height: $face-width / 2;
+  @include border-radius(($face-width / 2) ($face-width / 2) 0 0);
+}
+#sky-background
+{
+  z-index: 20;
+}
+#sky-blend { z-index: 21; }
+#sky { z-index: 22; }
+#sky-foreground { z-index: 23; }
+#sky-fx { z-index: 24; }
+
+.sky-0 { @include background-image(linear-gradient(top, #020111 85%, #191621 100%)); }
+.sky-1 { @include background-image(linear-gradient(top, #020111 85%, #191621 100%)); }
+.sky-2 { @include background-image(linear-gradient(top, #020111 60%, #20202c 100%)); }
+.sky-3 { @include background-image(linear-gradient(top, #020111 10%, #3a3a52 100%)); }
+.sky-4 { @include background-image(linear-gradient(top, #20202c 0%, #515175 100%)); }
+.sky-5 { @include background-image(linear-gradient(top, #40405c 0%, #6f71aa 80%, #8a76ab 100%)); }
+.sky-6 { @include background-image(linear-gradient(top, #4a4969 0%, #7072ab 50%, #cd82a0 100%)); }
+.sky-7 { @include background-image(linear-gradient(top, #757abf 0%, #8583be 60%, #eab0d1 100%)); }
+.sky-8 { @include background-image(linear-gradient(top, #82addb 0%, #ebb2b1 100%)); }
+.sky-9 { @include background-image(linear-gradient(top, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%)); }
+.sky-10 { @include background-image(linear-gradient(top, #b7eaff 0%, #94dfff 100%)); }
+.sky-11 { @include background-image(linear-gradient(top, #9be2fe 0%, #67d1fb 100%)); }
+.sky-12 { @include background-image(linear-gradient(top, #90dffe 0%, #38a3d1 100%)); }
+.sky-13 { @include background-image(linear-gradient(top, #57c1eb 0%, #246fa8 100%)); }
+.sky-14 { @include background-image(linear-gradient(top, #2d91c2 0%, #1e528e 100%)); }
+.sky-15 { @include background-image(linear-gradient(top, #2473ab 0%, #1e528e 70%, #5b7983 100%)); }
+.sky-16 { @include background-image(linear-gradient(top, #1e528e 0%, #265889 50%, #9da671 100%)); }
+.sky-17 { @include background-image(linear-gradient(top, #1e528e 0%, #728a7c 50%, #e9ce5d 100%)); }
+.sky-18 { @include background-image(linear-gradient(top, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%)); }
+.sky-19 { @include background-image(linear-gradient(top, #163c52 0%, #4f4f47 30%, #c5752d 60%, #B7490f 80%, #2f1107 100%)); }
+.sky-20 { @include background-image(linear-gradient(top, #071b26 0%, #071b26 30%, #8a3b12 80%,#240e03 100%)); }
+.sky-21 { @include background-image(linear-gradient(top, #010A10 30%, #59230b 80%, #2f1107 100%)); }
+.sky-22 { @include background-image(linear-gradient(top, #090401 50%, #4b1d06 100%)); }
+.sky-23 { @include background-image(linear-gradient(top, #00000c 80%, #150800 100%)); }
