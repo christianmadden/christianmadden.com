@@ -3,7 +3,6 @@ node_modules
 .tmp
 src/bower_components/
 build
-
 .DS_Store
-
 /src/fonts/.DS_Store
+.editorconfig
