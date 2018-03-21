@@ -1,17 +1,27 @@
+
 'use strict';
 
-var home = home || {};
-
-function init()
+var home = function()
 {
-    console.log("Home: Init...");
-}
+	var isLocked = true;
 
-$(function()
-{
-  if($('body').attr('id') === 'home')
-  {
-    console.log('Loading: Home');
-    home.init();
-  }
-});
+  return {
+
+    DEBUG: false,
+    init: function()
+    {
+      console.log('Init home...');
+    },
+    update: function()
+    {
+    	//
+    },
+		toggleLock()
+		{
+			console.log("Toggling lock...");
+			this.isLocked = !this.isLocked;
+			console.log("Lock is: " + this.isLocked);
+		}
+  };
+
+}();
