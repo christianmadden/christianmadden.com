@@ -25,6 +25,13 @@ a { color: inherit; }
   padding: 5px;
 }
 
+.facebook a:before { content: "\F30C"; }
+.twitter a:before { content: "\F309"; }
+.instagram a:before { content: "\F32D"; }
+.github a:before { content: "\F300"; }
+.linkedin a:before { content: "\F318"; }
+.email a:before { content: "\2709"; }
+
 header
 {
   margin: 250px 0 5px 0;
