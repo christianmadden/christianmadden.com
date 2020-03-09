@@ -55,9 +55,9 @@ a {
 
 #container {
   position: relative;
-  width: 470px;
+  width: 440px;
   margin: 50px auto;
-  padding: 5px;
+  padding: 20px;
 }
 
 header {
@@ -81,7 +81,7 @@ h4 {
 }
 p {
   margin-bottom: 15px;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 #main {
   font-size: 16px;
@@ -132,14 +132,14 @@ hr {
 }
 #selected-works .work-item p {
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 footer {
   margin: 25px auto;
 }
 footer ul {
-  margin-left: 100px;
+  margin-left: 80px;
   list-style: none;
   
 }
