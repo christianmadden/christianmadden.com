@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Stateface Regular";
+  src: url("fonts/stateface-regular-webfont.eot");
+  src: url("fonts/stateface-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/stateface-regular-webfont.woff") format("woff"), url("fonts/stateface-regular-webfont.ttf") format("truetype"), url("fonts/stateface-regular.svg#stateface-regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Entypo";
+  src: url("fonts/entypo.eot");
+  src: url("fonts/entypo.eot?#iefix") format("embedded-opentype"), url("fonts/entypo.woff") format("woff"), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#Entypo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EntypoSocial";
+  src: url("fonts/entypo-social.eot");
+  src: url("fonts/entypo-social.eot?#iefix") format("embedded-opentype"), url("fonts/entypo-social.woff") format("woff"), url("fonts/entypo-social.ttf") format("truetype"), url("fonts/entypo-social.svg#EntypoSocial") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Moon Phases";
+  src: url("fonts/moon-phases-webfont.eot");
+  src: url("fonts/moon-phases-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/moon-phases-webfont.woff2") format("woff2"), url("fonts/moon-phases-webfont.woff") format("woff"), url("fonts/moon-phases-webfont.ttf") format("truetype"), url("fonts/moon-phases-webfont.svg#moonphases") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, header, section, div, p, ul, li, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: #80bffc;
+}
+
+::-moz-selection {
+  background: #80bffc;
+}
+
+#container {
+  position: relative;
+  width: 310px;
+  margin: 25px auto;
+  padding: 5px;
+}
+
+header {
+  margin-bottom: 5px;
+}
+header h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+#main {
+  font-size: 16px;
+}
+#main h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+#main p {
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+#main #mass {
+  position: relative;
+  margin-bottom: 15px;
+  font-family: "Stateface Regular";
+  font-size: 130px;
+  text-align: center;
+  line-height: 1.0;
+}
+#main #mass:before {
+  content: "S";
+}
+#main #mass #star {
+  position: absolute;
+  top: 22px;
+  right: 106px;
+  color: #80bffc;
+  font-family: "Entypo";
+  font-size: 30px;
+}
+#main #mass #star:before {
+  content: "\2605";
+}
+#main ul {
+  margin-top: 20px;
+  list-style: square;
+}
+#main ul li {
+  margin: 0 0 10px 20px;
+  padding-left: 0px;
+}
+#main ul li cite {
+  color: #aaa;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 25px;
+}
+footer ul {
+  margin-left: 45px;
+  list-style: none;
+}
+footer ul li {
+  display: inline;
+  padding-right: 10px;
+  font-family: EntypoSocial;
+  font-size: 40px;
+}
+footer ul li.email {
+  font-family: Entypo;
+}
+footer ul li span {
+  display: none;
+}
+footer ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+footer ul li.facebook a:before {
+  content: "\F30C";
+}
+footer ul li.twitter a:before {
+  content: "\F309";
+}
+footer ul li.instagram a:before {
+  content: "\F32D";
+}
+footer ul li.github a:before {
+  content: "\F300";
+}
+footer ul li.linkedin a:before {
+  content: "\F318";
+}
+footer ul li.email a:before {
+  content: "\2709";
+}
+
+.sky-0 {
+  background: linear-gradient(to bottom, #020111 85%, #191621 100%);
+}
+
+.sky-1 {
+  background: linear-gradient(to bottom, #020111 85%, #191621 100%);
+}
+
+.sky-2 {
+  background: linear-gradient(to bottom, #020111 60%, #20202c 100%);
+}
+
+.sky-3 {
+  background: linear-gradient(to bottom, #020111 10%, #3a3a52 100%);
+}
+
+.sky-4 {
+  background: linear-gradient(to bottom, #20202c 0%, #515175 100%);
+}
+
+.sky-5 {
+  background: linear-gradient(to bottom, #40405c 0%, #6f71aa 80%, #8a76ab 100%);
+}
+
+.sky-6 {
+  background: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+}
+
+.sky-7 {
+  background: linear-gradient(to bottom, #757abf 0%, #8583be 60%, #eab0d1 100%);
+}
+
+.sky-8 {
+  background: linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+}
+
+.sky-9 {
+  background: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%);
+}
+
+.sky-10 {
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
+}
+
+.sky-11 {
+  background: linear-gradient(to bottom, #9be2fe 0%, #67d1fb 100%);
+}
+
+.sky-12 {
+  background: linear-gradient(to bottom, #90dffe 0%, #38a3d1 100%);
+}
+
+.sky-13 {
+  background: linear-gradient(to bottom, #57c1eb 0%, #246fa8 100%);
+}
+
+.sky-14 {
+  background: linear-gradient(to bottom, #2d91c2 0%, #1e528e 100%);
+}
+
+.sky-15 {
+  background: linear-gradient(to bottom, #2473ab 0%, #1e528e 70%, #5b7983 100%);
+}
+
+.sky-16 {
+  background: linear-gradient(to bottom, #1e528e 0%, #265889 50%, #9da671 100%);
+}
+
+.sky-17 {
+  background: linear-gradient(to bottom, #1e528e 0%, #728a7c 50%, #e9ce5d 100%);
+}
+
+.sky-18 {
+  background: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+}
+
+.sky-19 {
+  background: linear-gradient(to bottom, #163c52 0%, #4f4f47 30%, #c5752d 60%, #b7490f 80%, #2f1107 100%);
+}
+
+.sky-20 {
+  background: linear-gradient(to bottom, #071b26 0%, #071b26 30%, #8a3b12 80%, #240e03 100%);
+}
+
+.sky-21 {
+  background: linear-gradient(to bottom, #010a10 30%, #59230b 80%, #2f1107 100%);
+}
+
+.sky-22 {
+  background: linear-gradient(to bottom, #090401 50%, #4b1d06 100%);
+}
+
+.sky-23 {
+  background: linear-gradient(to bottom, #00000c 80%, #150800 100%);
+}
+
+body#chronos #container {
+  position: relative;
+  width: 310px;
+  margin: 100px auto;
+  padding: 5px;
+}
+body#chronos #main {
+  position: relative;
+}
+body#chronos #chronos {
+  z-index: 1;
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  background: #fff;
+}
+body#chronos #bezel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #000;
+}
+body#chronos #face {
+  z-index: 11;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 190px;
+  height: 190px;
+  border-radius: 95px;
+  background-color: #000;
+}
+body#chronos #sky, body#chronos #earth {
+  position: absolute;
+  width: 190px;
+}
+body#chronos #sky, body#chronos #sky-inner {
+  height: 95px;
+  border-radius: 95px 95px 0 0;
+}
+body#chronos #sky {
+  z-index: 21;
+  top: 0px;
+}
+body#chronos #sky-inner {
+  z-index: 22;
+}
+body#chronos #disc {
+  z-index: 30;
+  position: absolute;
+  top: 0px;
+  width: 190px;
+  height: 190px;
+  border-radius: 95px;
+  -webkit-transform-origin: 50% 50%;
+}
+body#chronos #sun, body#chronos #moon {
+  z-index: 31;
+  position: absolute;
+  left: 85px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+body#chronos #sun {
+  bottom: 10px;
+  background-color: #ff0;
+}
+body#chronos #moon {
+  top: 10px;
+  color: #fff;
+  font-family: "Moon Phases";
+  font-size: 23px;
+  line-height: 1.0;
+}
+body#chronos #moon p {
+  margin: -3px 0 0 -2px;
+}
+body#chronos #earth {
+  z-index: 40;
+  bottom: 0;
+  height: 95px;
+  border-radius: 0 0 95px 95px;
+  background-color: #114;
+}
+body#chronos #timer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+body#chronos .wedge {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #911;
+}
+body#chronos #spinner {
+  z-index: 7;
+  -webkit-border-radius: 100px 0 0 100px;
+  -webkit-transform-origin: 100% 50%;
+}
+body#chronos #filler {
+  left: 50%;
+  -webkit-border-radius: 0px 100px 100px 0px;
+  opacity: 0;
+  -webkit-transform-origin: 100% 50%;
+}
+body#chronos #mask {
+  z-index: 8;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  -webkit-border-radius: 100px 0 0 100px;
+  background-color: #000;
+  opacity: 1;
+}
