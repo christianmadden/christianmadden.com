@@ -1,4 +1,6 @@
 
+/* They use media queries to target landscape phones (576px), tablets (768px), laptops (992px) and extra large desktop screens (1200px). */
+
 body, header, section, div, p, ul, li, h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
